@@ -47,3 +47,4 @@ class WorkerAssignmentCreate(BaseModel):
 class StatusUpdateCreate(BaseModel):
     status: str
     remarks: Optional[str] = None
+

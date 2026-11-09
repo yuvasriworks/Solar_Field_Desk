@@ -27,3 +27,4 @@ def upload_image(file: UploadFile = File(...)):
         "file_url": f"/uploads/{unique_filename}",
         "filename": unique_filename,
     }
+

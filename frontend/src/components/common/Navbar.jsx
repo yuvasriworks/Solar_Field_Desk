@@ -210,3 +210,4 @@ export const Navbar = ({ activeSection = 'home', onNavigate }) => {
     </nav>
   );
 };
+

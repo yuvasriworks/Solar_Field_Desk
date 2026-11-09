@@ -51,3 +51,4 @@ def health_check():
         "version": settings.VERSION,
         "company_upi": settings.COMPANY_UPI_ID,
     }
+

@@ -407,3 +407,4 @@ def submit_feedback(
     db.add(fb)
     db.commit()
     return {"message": "Thank you! Your feedback has been recorded."}
+

@@ -172,3 +172,4 @@ export const SolarHeroScene = () => {
     </div>
   );
 };
+

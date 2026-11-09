@@ -34,3 +34,4 @@ class FeedbackCreateRequest(BaseModel):
     request_id: int
     rating: int
     comments: Optional[str] = None
+

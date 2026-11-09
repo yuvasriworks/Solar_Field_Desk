@@ -7,3 +7,4 @@ client = TestClient(app)
 print("2. TestClient created. Calling /api/health...")
 r = client.get("/api/health")
 print("3. Response:", r.status_code, r.json())
+

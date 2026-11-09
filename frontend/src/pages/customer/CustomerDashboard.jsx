@@ -697,3 +697,4 @@ export const CustomerDashboard = ({ initialView = 'overview' }) => {
     </div>
   );
 };
+

@@ -60,3 +60,4 @@ class Worker(Base):
     work_photos = relationship("WorkPhoto", back_populates="worker")
     cash_deposits = relationship("CashDeposit", back_populates="worker")
     feedbacks = relationship("Feedback", back_populates="worker")
+

@@ -89,3 +89,4 @@ class WorkerAssignment(Base):
     # Relationships
     service_request = relationship("ServiceRequest", back_populates="assignments")
     worker = relationship("Worker", back_populates="assignments")
+

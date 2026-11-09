@@ -30,3 +30,4 @@ class QuotationResponse(BaseModel):
 class QuotationDecision(BaseModel):
     approved: bool
     rejection_reason: Optional[str] = None
+

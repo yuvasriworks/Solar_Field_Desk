@@ -174,3 +174,4 @@ def seed_initial_data(db: Session):
 
     db.commit()
     print(">> Database tables initialized & seed data verified.")
+

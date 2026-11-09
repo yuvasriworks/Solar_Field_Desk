@@ -193,3 +193,4 @@ export const SignInPage = ({ onNavigate }) => {
     </div>
   );
 };
+

@@ -527,3 +527,4 @@ def get_admin_reports(
         "pending_revenue": pending_revenue,
         "average_customer_rating": round(float(avg_system_rating), 1),
     }
+

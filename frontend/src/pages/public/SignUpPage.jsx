@@ -69,7 +69,7 @@ export const SignUpPage = ({ onNavigate }) => {
   return (
     <div className="min-h-screen pt-24 pb-12 flex items-center justify-center px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl w-full grid grid-cols-1 md:grid-cols-5 rounded-3xl overflow-hidden shadow-2xl border border-sky-100 bg-white">
-        
+
         {/* Left Side: Brand Highlights */}
         <div className="md:col-span-2 bg-gradient-to-br from-solar-navy via-sky-950 to-solar-deepBlue p-8 text-white flex flex-col justify-between relative overflow-hidden">
           <div className="space-y-4">
@@ -270,3 +270,4 @@ export const SignUpPage = ({ onNavigate }) => {
     </div>
   );
 };
+

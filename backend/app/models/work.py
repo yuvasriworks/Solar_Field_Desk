@@ -38,3 +38,4 @@ class WorkPhoto(Base):
     # Relationships
     service_request = relationship("ServiceRequest", back_populates="work_photos")
     worker = relationship("Worker", back_populates="work_photos")
+

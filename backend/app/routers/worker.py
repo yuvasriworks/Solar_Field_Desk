@@ -296,3 +296,4 @@ def submit_cash_deposit(
 
     db.commit()
     return {"message": "Cash handover deposit submitted to Admin for verification.", "deposit_id": deposit.id}
+
